@@ -2,19 +2,19 @@ POST http://localhost:3000/subscribe HTTP/1.1
 content-type: application/json
 
 {
-    "ping": "bbb"
+    "ping": "hello"
 }
 
-POST https://nestjs-zeit-http-issue.kuncevic.now.sh/subscribe HTTP/1.1 
+POST https://{zeit-deploy-url}/subscribe HTTP/1.1 
 content-type: application/json
 
 {
-    "ping": "xx"     
+    "ping": "hello1"     
 }
 
-POST https://{zeit-deploy-id}.now.sh/callme HTTP/1.1
+POST https://{zeit-deploy-url}.now.sh/map HTTP/1.1
 content-type: application/json
 
 {
-    "ping": "hello"    
+    "ping": "hello2"    
 }
