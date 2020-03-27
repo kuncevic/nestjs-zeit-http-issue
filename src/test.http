@@ -12,7 +12,7 @@ content-type: application/json
     "ping": "hello1"     
 }
 
-POST https://{zeit-deploy-url}.now.sh/map HTTP/1.1
+POST https://{zeit-deploy-url}/map HTTP/1.1
 content-type: application/json
 
 {
